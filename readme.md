@@ -53,20 +53,24 @@ Flow Of Control
 
 Requirements
 =============
-
 A good hardware configuration is recommended for running ollama chatbot as ollama needs a lot of memory to run.
 
 Installation
 =============
-
+1.Clone Repo
+```
 git clone https://github.com/TGvenomYT/ollama-in-python.git
-
+```
+2.Change Directory
+```
 cd ollama-in-python
-
+```
+3.Install Requirements
+```
 pip install -r requirements.txt
-         OR
-       
+```         OR
+```      
 pip install langchain_core langchain_ollama
-
+```
 Feel Free to contribute to this project.
 =========================================

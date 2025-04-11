@@ -17,18 +17,39 @@ FEATURES
 
 Flow Of Control
 ===================
-flowchart TD
-    A[Start] --> B[Import Libraries]
-    B --> C[Initialize Template and Model]
-    C --> D[Define conversation Function]
-    D --> E[Start Infinite Loop]
-    E --> F[Get User Input]
-    F --> G{User Input 'exit'?}
-    G -- Yes --> H[End Loop]
-    G -- No --> I[Generate and Print Response]
-    I --> J[Update Conversation History]
-    J --> E
-    H --> K[End]
+```
+    [Start] 
+    |
+    V
+    [Import Libraries]
+    |
+    V
+    [Initialize Template and Model]
+    |
+    V
+    [Define conversation Function]
+    |
+    V
+    [Start Infinite Loop]
+    |
+    V
+    [Get User Input]
+    |
+    V
+    {User Input 'exit'?}
+    |
+    V
+    [End Loop]
+    |
+    V
+    I[Generate and Print Response]
+    |
+    V
+    [Update Conversation History]
+    |
+    V[End]
+```
+
 
 Requirements
 =============

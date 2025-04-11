@@ -55,6 +55,7 @@ Requirements
 =============
 A good hardware configuration is recommended for running ollama chatbot as ollama needs a lot of memory to run.
 
+
 Installation
 =============
 1.Clone Repo
@@ -65,12 +66,16 @@ git clone https://github.com/TGvenomYT/ollama-in-python.git
 ```
 cd ollama-in-python
 ```
-3.Install Requirements
+3.Create Vnev
+```
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+4.Install dependencies
 ```
 pip install -r requirements.txt
-```         OR
-```      
+           
 pip install langchain_core langchain_ollama
 ```
+
 Feel Free to contribute to this project.
 =========================================
